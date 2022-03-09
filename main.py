@@ -47,9 +47,5 @@ def main():
     
     
 if __name__ == '__main__':
-    res = ''
-    while res.lower() not in ('quit', 'q'):
-        main()
-        while res not in ('quit', 'q', 'again', 'a'):
-            res = input('Enter quit/q or again/a: ')
+    main()
 
